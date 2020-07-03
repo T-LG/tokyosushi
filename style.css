@@ -1,0 +1,38 @@
+.fond {
+ background: url("photo.jpeg") no-repeat center;
+ position: fixed; /* Le fond est fixé en haut de la page */
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 450px; /* On met ici la même hauteur que le jumbotron */
+ top:0;
+ left:0;
+ z-index: -1;
+}
+.jumbotron {
+ margin-bottom: 0px;
+ height: 450px;
+ color: white; /* Le texte sera affiché en blanc */
+ background:transparent;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: black;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: black
+   ;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: black; /* Appliquer une couleur grise */
+}
+
+#container{
+  justify-content: space-around;
+}
